@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title> </title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar70"><img src="../includes/emily.jpg" alt="" /></span>
+							<h1 id="title">Emily Blem</h1>
+							<!--<p>Vestibulum Accumsan</p>-->
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-leaf">Biography</span></a></li>
+								<li><a href="#research" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-cubes">Research</span></a></li>
+								<li><a href="#publications" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Publications</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+						
+						
+				</div>
+				
+				<div class="bottom">
+				
+				</div>
+			
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="four">
+						<div class="container">
+
+							<header>
+								<p>I completed my Ph.D. the University of Wisconsin - Madison in the <a href="http://www.cs.wisc.edu/"> Department of Computer Sciences </a> in August 2013 and joined Google as a Software Engineer.  My research in computer architecture leverages analyses and models of systems to inform the creation of new architectures. I worked with <a href="http://pages.cs.wisc.edu/~karu/wiki/">Professor Karu Sankaralingam </a>in the <a href="http://research.cs.wisc.edu/vertical/wiki/">Vertical Research Group.</a> Prior to joining UW-Madison,  I received my B.S. in Engineering and B.A. in Mathematics from Swarthmore College.</p>
+							</header>
+							
+
+						</div>
+					</section>
+					
+				<!-- Research -->
+					<section id="research" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Research</h2>
+							</header>
+							
+							<p>My research interests are in applications of analytic modeling to computer architecture 
+							performance, power, and energy projections. My work leverages detailed analyses and models of
+							complex systems to inform the creation of new architectures. I have developed detailed multicore
+							models to produce performance projections for future technology generations as part of work
+							that found that the role of computer architects today is to find new uses for <i>dark silicon</i>.
+						    Further, I developed new analyses that found that fundamental performance, energy, and power
+						    differences between ISAs are limited, and opportunities lie in the development of extensions
+						    designed for energy-efficiency.</p>
+
+							<p>In my thesis work, I developed a unified model for data-parallel architectures that can be
+								used to find the best style of data-parallelism (e.g., SIMD, multicore, GPU) for a particular
+								workload. This use of analytic models to develop new architectures is a key component of
+								my work.</p>
+						
+							
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="publications" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Publications</h2>
+							</header>
+
+							<!--<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>-->
+							<ul class="default">
+							<li> <strong>ISA Wars: Understanding the importance of ISA being RISC or CISC to performance, power, and energy on modern architectures.</strong><br>
+							Emily Blem, Jaikrishnan Menon, Thiruvengadam Vijayaraghavan, and Karthikeyan Sankaralingam.<br>
+							 To appear in <i>ACM Transcations on Computer Systems (TOCS)</i>.</li>
+							
+							<li> <strong>Power Struggles: Revisiting the RISC vs. CISC Debate on Contemporary ARM and x86 Architectures.</strong><br>
+							Emily Blem, Jaikrishnan Menon, and Karthikeyan Sankaralingam.<br>
+							 In <i>19th International Symposium on High Performance Computer Architecture (HPCA)</i>, 2013. <br>
+							 <a href="http://www.cs.wisc.edu/vertical/papers/2013/hpca13-isa-power-struggles.pdf">pdf</a>, <a href="http://www.cs.wisc.edu/vertical/papers/2013/isa-power-struggles-tr.pdf">extended tech report</a>, <a href="http://www.cs.wisc.edu/vertical/isa-power-struggles/">webpage</a>.</li>
+							
+							<li> <strong>Multicore Model from Abstract Single Core Inputs. </strong><br>
+								Emily Blem, Hadi Esmaeilzadeh, Renée St. Amant, Karthikeyan Sankaralingam, Doug Burger.<br>
+								<i> IEEE Computer Architecture Letters (CAL)</i>, 12(2):59-62, July 2013. <br>
+							    <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6290318">pdf</a></li>
+
+							<li> <strong>Power Challenges May End the Multicore Era.</strong> <br>
+								Hadi Esmaeilzadeh, Emily Blem, Renée St. Amant, Karthikeyan Sankaralingam, Doug Burger<br>
+								<i> Communications of the ACM (CACM)</i> Research Highlights, February 2013. <br>
+								<a href="http://dl.acm.org/authorize?N83662" title="Power challenges may end the multicore era">pdf</a>, <a href="http://youtu.be/Df8SQ8ojEAQ">short video</a>.</li>
+							
+							<li> <strong>Power Limitations and Dark Silicon are Challenging the Future of Multicore.</strong> <br>
+								Hadi Esmaeilzadeh, Emily Blem, Renée St. Amant, Karthikeyan Sankaralingam, Doug Burger.<br>
+								Invited <i>ACM Transcations on Computer Systems (TOCS)</i>, 2012. <br>
+							   <a href="http://dl.acm.org/authorize?N83663" title="Power Limitations and Dark Silicon Challenge the Future of Multicore">pdf</a></li>
+
+							<li> <strong>Dark Silicon and the End of Multicore Scaling.</strong> <br>
+								Hadi Esmaeilzadeh, Emily Blem, Renée St. Amant, Karthikeyan Sankaralingam, Doug Burger.<br>
+								<i>IEEE Micro: Top Picks</i>, May/June 2012.<br>
+								<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6175879">pdf</a></li>
+
+							<li> <strong>Challenge Benchmarks That Must Be Conquered to Sustain the GPU Revolution.</strong> <br>
+								Emily Blem, Matt Sinclair, and Karthikeyan Sankaralingam.  <br>
+								 <i>In Proceedings of the 4th Workshop on Emerging Applications for Manycore Architecture</i>, 2011. <br>
+								 <a href="http://research.cs.wisc.edu/vertical/papers/2011/eama11-gpu-challenge.pdf">pdf</a></li>
+
+							<li> <strong>Dark Silicon and the End of Multicore Scaling.</strong><br>
+								Hadi Esmaeilzadeh, Emily Blem, Renée St. Amant, Karthikeyan Sankaralingam, Doug Burger.<br>
+								 <i>In Proceedings of the 38th International Symposium on Computer Architecture (ISCA)</i>, 2011. <br>
+								<a href="http://dl.acm.org/authorize?61567" title="Dark silicon and the end of multicore scaling">pdf</a>, <a href="http://research.cs.wisc.edu/vertical/wiki/index.php/DarkSilicon/DarkSilicon">website</a> </li>
+
+							<li> <strong>Instruction Set Extensions for Software Defined Radio.</strong><br>
+									Suman Mamidi, Emily R. Blem, Michael J. Schulte, John Glossner, Daniel Iancu, Andrei Iancu, Mayan Moudgill, Sanjay Jinturkar.<br>
+								<i>Microprocessors & Microsystems</i>, 33(4), June 2009. <br>
+								<a href="http://www.sciencedirect.com/science/article/pii/S0141933109000210">pdf</a></li>
+
+							<li> <strong>An Overview of Reconfigurable Hardware in Embedded Systems.</strong><br>
+								Philip Garcia*, Katherine Compton, Michael Schulte, Emily Blem and Wenyin Fu. <br>
+								 <i>EURASIP Journal on Embedded Systems</i>, 2006. <br>
+								 <a href="http://jes.eurasipjournals.com/content/2006/1/056320">pdf</a></li>
+
+							<li> <strong>Instruction Set Extensions for Cyclic Redundancy Check on a Multithreaded Processor.</strong><br>
+								Emily R. Blem, Suman Mamidi, Michael J. Schulte, John Glossner, Daniel Iancu, Mayan Moudgill. <br>
+								 <i>Workshop on Media and Streaming Processors</i> (held at MICRO-38), 2005. <br>
+								 <a href="http://www.glossner.org/john/papers/2005_11_wasp_blem.pdf">pdf</a></li>
+
+							<li> <strong>Instruction set extensions for software defined radio on a multithreaded processor.</strong><br>
+								Suman Mamidi, Emily R. Blem, Michael J. Schulte, John Glossner, Andrei Iancu, Mayan Moudgill, Sanjay Jinturkar.<br>
+								  <i>International Conference on Compilers, Architecture and Synthesis for Embedded Systems (CASES)</i>, 2005.<br>
+								  <a href="http://dl.acm.org/authorize?61568" title="Instruction set extensions for software defined radio on a multithreaded processor">pdf</a></li>
+
+						</ul>
+
+						</div>
+					</section>
+			
+				<!-- Contact -->
+				<section id="contact" class="four">
+						<div class="container">
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<ul class="contact">
+								<li>phone: (608) 886-7780  &nbsp;&nbsp;&nbsp; //&nbsp;&nbsp;&nbsp;
+					   				email: emilyblem@gmail.com
+					   			</li>
+					   		</ul>
+						</div>
+					</section>
+			
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Emily Blem. All rights reserved.</li>
+					</ul>
+				
+			</div>
+
+	</body>
+</html>
